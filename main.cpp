@@ -1,4 +1,4 @@
-#include "../compactnesslib.hpp"
+#include "compactnesslib/compactnesslib.hpp"
 #include "Timer.hpp"
 #include <iostream>
 #include <fstream>
