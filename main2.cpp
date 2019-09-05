@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
   auto gc_sub = complib::ReadShapefile(in_sub_filename);
   auto gc_sup = complib::ReadShapefile(in_sup_filename);
 
-  FindExteriorDistricts(gc_sub, gc_sup);
+  // FindExteriorDistricts(gc_sub, gc_sup);
   complib::CalculateAllBoundedScores(gc_sub, gc_sup, join_on);
   complib::CalculateAllUnboundedScores(gc_sub);
   complib::WriteShapefile(gc_sub,out_filename);
